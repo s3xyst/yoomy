@@ -2,7 +2,7 @@ import  uuid
 import  requests
 
 def get_auth():
-    return('MzRjYzQ5YzQtNDg0Yy00NGY4LWI0NGEtNGRlZmExYjBlOGE3OjE4NzYzMTkxLTQzNzktNDAyZC05ZTAxLWRjNzY5OTM1YmZhOQ==')
+    return('key')#
 
 def get_token(auth = get_auth(), scope = 'GIGACHAT_API_PERS'):
     rq_uid = str(uuid.uuid4())
